@@ -1,0 +1,135 @@
+{
+  "_format": "ethers-rs-sol-cache-3",
+  "paths": {
+    "artifacts": "artifacts",
+    "build_infos": "artifacts/build-info",
+    "sources": "contracts",
+    "tests": "test",
+    "scripts": "script",
+    "libraries": [
+      "node_modules"
+    ]
+  },
+  "files": {
+    "contracts/Lock.sol": {
+      "lastModificationDate": 1678618389501,
+      "contentHash": "ec137661f2b88431186be4611b3062d7",
+      "sourceName": "contracts/Lock.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [],
+      "versionRequirement": "^0.8.18",
+      "artifacts": {
+        "TimeLock": {
+          "0.8.19+commit.7dd6d404.Darwin.appleclang": "Lock.sol/TimeLock.json"
+        }
+      }
+    },
+    "contracts/Notes.sol": {
+      "lastModificationDate": 1678618392121,
+      "contentHash": "40db20ee84eede193cdd3fe191d2ada3",
+      "sourceName": "contracts/Notes.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [],
+      "versionRequirement": "^0.8.18",
+      "artifacts": {
+        "Notes": {
+          "0.8.19+commit.7dd6d404.Darwin.appleclang": "Notes.sol/Notes.json"
+        }
+      }
+    },
+    "contracts/SimpleDapp.sol": {
+      "lastModificationDate": 1678618395274,
+      "contentHash": "046841c5d38f244e156bfccec9800149",
+      "sourceName": "contracts/SimpleDapp.sol",
+      "solcConfig": {
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "metadata": {
+            "bytecodeHash": "ipfs",
+            "appendCBOR": true
+          },
+          "outputSelection": {
+            "*": {
+              "": [
+                "ast"
+              ],
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ]
+            }
+          },
+          "evmVersion": "london",
+          "libraries": {}
+        }
+      },
+      "imports": [],
+      "versionRequirement": "^0.8.18",
+      "artifacts": {
+        "SimpleDapp": {
+          "0.8.19+commit.7dd6d404.Darwin.appleclang": "SimpleDapp.sol/SimpleDapp.json"
+        }
+      }
+    }
+  }
+}
